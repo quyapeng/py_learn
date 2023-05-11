@@ -35,3 +35,38 @@ print('------------------------------')
 
 print('hello\nrunoob')      # 使用反斜杠(\)+n转义特殊字符
 print(r'hello\nrunoob')     # 在字符串前面添加一个 r，表示原始字符串，不会发生转义
+
+# import sys; x = 'runoob'; sys.stdout.write(x + '\n')
+# if expression:
+#     suite
+# elif expression:
+#     suite
+# else:
+#     suite
+#!/usr/bin/python3
+
+# x = "a"
+# y = "b"
+# # 换行输出
+# print(x)
+# print(y)
+
+# print('---------')
+# # 不换行输出
+# print(x, end="")
+# print(y, end="")
+
+
+#!/usr/bin/python3
+
+counter = miles = 100          # 整型变量
+# miles = 1000.0       # 浮点型变量
+name = "runoob"     # 字符串
+
+print(counter)
+print(miles)
+
+a, b, c, d = 20, 5.5, True, 4+3j
+print(type(a), type(b), type(c), type(d))
+
+print(isinstance(a, int))
